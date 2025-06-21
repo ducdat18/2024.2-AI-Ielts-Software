@@ -1,6 +1,5 @@
 # 🎯 IELTS Online Practice System
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![.NET](https://img.shields.io/badge/.NET-8.0-blue.svg)](https://dotnet.microsoft.com/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue.svg)](https://www.typescriptlang.org/)
 [![Vite](https://img.shields.io/badge/Vite-5.0-646CFF.svg)](https://vitejs.dev/)
@@ -139,14 +138,6 @@ npm run test
 
 ### API Testing
 Import the Postman collection from `/docs/api-collection.json`
-
-## 📄 Documentation
-
-- [📋 Software Requirements Specification](./docs/SRS.pdf)
-- [🏗️ System Architecture](./docs/architecture.md)
-- [🗄️ Database Design](./docs/database-schema.md)
-- [🤖 AI Integration Guide](./docs/ai-integration.md)
-- [🔧 API Documentation](./docs/api-reference.md)
 
 ## 📋 Requirements
 
