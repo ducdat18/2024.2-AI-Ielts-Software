@@ -1,0 +1,99 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333333;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #ffffff;
+        }
+        .header {
+            background-color: #4a90e2;
+            padding: 20px;
+            text-align: center;
+            border-radius: 5px 5px 0 0;
+        }
+        .header h1 {
+            color: #ffffff;
+            margin: 0;
+            font-size: 24px;
+        }
+        .content {
+            padding: 30px;
+            background: #f9f9f9;
+            border-radius: 0 0 5px 5px;
+        }
+        .verification-code {
+            background-color: #ffffff;
+            padding: 15px;
+            margin: 20px 0;
+            text-align: center;
+            border-radius: 5px;
+            border: 2px dashed #4a90e2;
+        }
+        .verification-code span {
+            font-size: 32px;
+            font-weight: bold;
+            color: #4a90e2;
+            letter-spacing: 5px;
+        }
+        .notice {
+            font-size: 14px;
+            color: #666666;
+            text-align: center;
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #fff3cd;
+            border-radius: 5px;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 12px;
+            color: #999999;
+        }
+    </style>
+    <title></title>
+</head>
+<body>
+<div class='container'>
+    <div class='header'>
+        <h1>Email Verification</h1>
+    </div>
+    <div class='content'>
+        <p>Hello,</p>
+        <p>Thank you for registering with us! To ensure the security of your account, please verify your email address using the verification code below:</p>
+
+        <div class='verification-code'>
+            <span>{verification_code}</span>
+        </div>
+
+        <p>To complete your registration:</p>
+        <ol>
+            <li>Copy the verification code above</li>
+            <li>Return to the registration page</li>
+            <li>Enter the code to verify your email</li>
+        </ol>
+
+        <div class='notice'>
+            <p><strong>Important:</strong> This verification code will expire in 10 minutes.</p>
+            <p>If you didn't request this verification code, please ignore this email.</p>
+        </div>
+    </div>
+
+    <div class='footer'>
+        <p>This is an automated message, please do not reply.</p>
+        <p>&copy; {current_year} IELTS Online Test. All rights reserved.</p>
+    </div>
+</div>
+</body>
+</html>

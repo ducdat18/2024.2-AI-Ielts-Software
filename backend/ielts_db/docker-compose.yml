@@ -1,0 +1,17 @@
+services:
+  db:
+    image: postgres:16
+    container_name: ielts_db
+    restart: always
+    environment:
+      POSTGRES_USER: ielts_admin
+      POSTGRES_PASSWORD: admin
+      POSTGRES_DB: ielts
+    ports:
+      - "5435:5432"
+    volumes:
+      - ./ielts_test.sql:/docker-entrypoint-initdb.d/ielts_test.sql
+      - ielts_data:/var/lib/postgresql/data
+
+volumes:
+  ielts_data:

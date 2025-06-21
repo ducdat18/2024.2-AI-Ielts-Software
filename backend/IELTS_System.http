@@ -1,0 +1,5 @@
+@IELTS_System_HostAddress = https://localhost:7212
+
+###
+GET {{IELTS_System_HostAddress}}/api/Test/
+Accept: application/json

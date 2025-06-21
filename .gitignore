@@ -1,0 +1,38 @@
+# === Node.js / Vite ===
+node_modules/
+dist/
+*.tsbuildinfo
+
+# === .NET ===
+bin/
+obj/
+*.user
+*.suo
+*.cache
+*.log
+
+# === Java ===
+*.class
+*.jar
+*.war
+*.ear
+target/
+.idea/
+*.iml
+
+# === Python / FastAPI ===
+__pycache__/
+*.pyc
+*.pkl
+*.h5
+.env
+
+# === OS / Editor ===
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Model files
+*.pt
+*.safetensors
